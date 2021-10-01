@@ -34,7 +34,13 @@ export default function Profile() {
                         )}
                     </Flex>
                     <Container mb={3}>
-                        <Heading as="h1" fontWeight="bold" fontSize="42px">oi, eu sou alex 😉</Heading>
+                        <Heading as="h1" fontWeight="bold" fontSize="42px">oi, eu sou alex 
+                        {colorMode === 'light' ? (
+                            " 😉"
+                        ) : (
+                            " 😃"
+                        )}
+                        </Heading>
                         There are many benefits to a joint design and development system. Not only
                         does it bring benefits to the design team, but it also brings benefits to
                         engineering teams. It makes sure that our experiences have a consistent look
@@ -52,11 +58,6 @@ export default function Profile() {
 
                 </Box>
             </Flex>
-            <Divider orientation="horizontal" />
-            <Flex maxW="1064px" margin="0 auto" justifyContent="flex-start" alignItems="center" flexWrap="wrap">
-                <Box p={3}>albuns jobs dos quais me orgulho:</Box>
-            </Flex>
-
         </>
     )
 }
