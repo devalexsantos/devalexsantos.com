@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ChakraProvider, extendTheme, CSSReset } from "@chakra-ui/react";
-import { Global, css } from '@emotion/react';
-import theme from '../styles/theme';
+import { Global, css } from "@emotion/react";
+import theme from "../styles/theme";
 
 const myTheme = extendTheme(theme);
 
@@ -15,16 +15,17 @@ const GlobalStyle = ({ children }) => (
     <CSSReset />
     <Global
       styles={css`
-      html {
-        scroll-behavior: smooth;
-      }
+        html {
+          scroll-behavior: smooth;
+        }
 
-      #__next {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-    `} />
+        #__next {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+        }
+      `}
+    />
     {children}
   </>
 );
@@ -32,9 +33,9 @@ const GlobalStyle = ({ children }) => (
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={myTheme}>
-        <GlobalStyle />
-        <Component {...pageProps} />
+      <GlobalStyle />
+      <Component {...pageProps} />
     </ChakraProvider>
-  )
+  );
 }
-export default MyApp
+export default MyApp;
