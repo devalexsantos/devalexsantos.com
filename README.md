@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Site Pessoal</h1>
 
-## Getting Started
+<p align="center">Site pessoal que lista minhas informações e repositórios através da API do GitHub - (https://api.github.com/users/devalexsantos)</p>
 
-First, run the development server:
+<div align="center">
+  <h3> Publicado 🚀 </h3>
+  <strong><a href="https://devalexsantos-com.vercel.app/">🔗 Clique Aqui para visualizar</a></strong>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Sumário
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-[Funcionalidades](#funcionalidades) <br/> -[Imagens](#imagens)<br/> -[Tecnologias](#tecnologias)<br/> -[Autor](#autor) <br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<a id="funcionalidades"></a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Funcionalidades
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [x] Exibir Quantidade de Repositórios pela API GitHub
+- [x] Listar Repositórios pela API GitHub
+- [x] Puxar descrição e links dos repositórios pela API GitHub
+- [x] Puxar link dos projetos em produção caso esteja preenchido
+- [x] Animações de entrada com Framer Motion
+- [x] Alternância de Tema Dark/Light com Chakra-Ui
 
-## Learn More
+<a id="imagens"></a>
 
-To learn more about Next.js, take a look at the following resources:
+# Imagens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div id="images" align="center">
+<img alt="Alex Santos" title="Site Pessoal - Alex Santos" src="public/github/devalexsantos_web_01.gif" width="700px" /><br/>
+<img alt="Alex Santos" title="Site Pessoal - Alex Santos" src="public/github/devalexsantos_web_02.gif" width="376px" />
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a id="tecnologias"></a>
 
-## Deploy on Vercel
+# Tecnologias
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+As ferramentas utilizadas foram:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<ul style="list-style: none">
+  <li>Javascript</li>
+  <li>Next.Js</li>
+  <li>API Github</li>
+  <li>Framer Motion</li>
+  <li>Axios</li>
+  <li>Chackra-UI</li>
+  <li>React Hooks</li>
+</ul>
+
+<div align="center">
+  <h3> Publicado 🚀 </h3>
+  <strong><a href="https://devalexsantos-com.vercel.app/">🔗 Clique Aqui para visualizar</a></strong>
+</div>
+
+<a id="autor"></a>
+
+# Autor
+
+<div align="center" style="display: flex; flex-direction: column; justify-content: center">
+<div algin="center">
+<img align="center" alt="Alex Santos" title="Foto de Alex Santos" src="public/github/devalexsantos.jpeg" width="150px" style="border-radius: 50%"/>
+</div>
+Alex Santos
+</div>
